@@ -1,0 +1,14 @@
+## Interface: 20400
+
+## Title: ButtonFacade: Onyx
+## Notes: Onyx skins for Button Facade.
+## Version: 2.4.2
+
+## Author: Storm
+## X-eMail: stormfx@gmail.com
+## X-Credits: JJSheets for BF.
+
+## X-Category: Action Bars
+## OptionalDeps: LibButtonFacade, ButtonFacade
+
+Skins.lua
