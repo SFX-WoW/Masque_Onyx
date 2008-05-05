@@ -27,13 +27,16 @@ LibButtonFacade:AddSkin("Onyx",{
 		Height = 36,
 	},
 	AutoCast = {
-		Width = 28,
-		Height = 28,
+		Width = 26,
+		Height = 26,
+		ModelScale = 0.8,
 	},
 	AutoCastable = {
 		Width = 54,
 		Height = 54,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
+		OffsetX = 0.5,
+		OffsetY = -0.5,
 	},
 	Normal = {
 		Width = 40,
@@ -76,18 +79,18 @@ LibButtonFacade:AddSkin("Onyx",{
 		Width = 36,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = 11,
+		OffsetY = 8,
 	},
 	Count = {
 		Width = 36,
 		Height = 10,
 		OffsetX = -2,
-		OffsetY = -11,
+		OffsetY = -8,
 	},
 	Name = {
 		Width = 36,
 		Height = 10,
-		OffsetY = -11,
+		OffsetY = -8,
 	},
 	-- Skin data end.
 
