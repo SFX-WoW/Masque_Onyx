@@ -1,12 +1,15 @@
 ## Interface: 20400
 
-## Title: ButtonFacade: Onyx
+## Title: ButtonFacade: |cffff8000Onyx|r
 ## Notes: Onyx skins for Button Facade.
-## Version: 2.4.2
+## Version: 2.4.6
 
-## Author: Storm
+## Author: StormFX
 ## X-eMail: stormfx@gmail.com
-## X-Credits: JJSheets for BF.
+## X-Website: http://www.wowace.com
+## X-AceForum: 13279
+## X-RelSite-WoWI: 
+## X-Credits: JJ Sheets for Button Facade.
 
 ## X-Category: Action Bars
 ## OptionalDeps: LibButtonFacade, ButtonFacade
