@@ -18,13 +18,6 @@ LibButtonFacade:AddSkin("Onyx",{
 		Width = 32,
 		Height = 32,
 	},
-	Border = {
-		Width = 40,
-		Height = 40,
-		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
-	},
 	Flash = {
 		Width = 40,
 		Height = 40,
@@ -40,19 +33,19 @@ LibButtonFacade:AddSkin("Onyx",{
 		Height = 26,
 		ModelScale = 0.8,
 	},
-	AutoCastable = {
-		Width = 54,
-		Height = 54,
-		OffsetX = 0.5,
-		OffsetY = -0.5,
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-	},
 	Normal = {
 		Width = 40,
 		Height = 40,
 		Static = true,
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Classic]],
+	},
+	Border = {
+		Width = 40,
+		Height = 40,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
 	Pushed = {
 		Width = 40,
@@ -69,6 +62,13 @@ LibButtonFacade:AddSkin("Onyx",{
 		BlendMode = "ADD",
 		Color = {0, 0.75, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
+	},
+	AutoCastable = {
+		Width = 54,
+		Height = 54,
+		OffsetX = 0.5,
+		OffsetY = -0.5,
+		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
 	Gloss = {
 		Width = 40,
@@ -108,19 +108,19 @@ LibButtonFacade:AddSkin("Onyx Redux",{
 
 	-- Skin data start.
 	Template = "Onyx",
-	Border = {
-		Width = 40,
-		Height = 40,
-		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Border]],
-	},
 	Normal = {
 		Width = 40,
 		Height = 40,
 		Static = true,
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Redux]],
+	},
+	Border = {
+		Width = 40,
+		Height = 40,
+		BlendMode = "ADD",
+		Color = {0, 1, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Border]],
 	},
 	Checked = {
 		Width = 40,
