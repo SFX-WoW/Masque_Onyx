@@ -40,18 +40,18 @@ LibButtonFacade:AddSkin("Onyx",{
 		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Classic]],
 	},
+	Pushed = {
+		Width = 40,
+		Height = 40,
+		Color = {0, 0, 0, 1},
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
+	},
 	Border = {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
 		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
-	},
-	Pushed = {
-		Width = 40,
-		Height = 40,
-		Color = {0, 0, 0, 1},
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
 	},
 	Disabled = {
 		Hide = true,
@@ -70,17 +70,17 @@ LibButtonFacade:AddSkin("Onyx",{
 		OffsetY = -0.5,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
-	Gloss = {
-		Width = 40,
-		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Gloss]],
-	},
 	Highlight = {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
 		Color = {1, 0.9, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
+	},
+	Gloss = {
+		Width = 40,
+		Height = 40,
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Gloss]],
 	},
 	HotKey = {
 		Width = 40,
