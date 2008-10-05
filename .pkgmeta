@@ -1,1 +1,4 @@
 package-as: ButtonFacade_Onyx
+
+required-dependencies:
+	- buttonfacade
