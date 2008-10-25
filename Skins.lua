@@ -29,9 +29,9 @@ LibButtonFacade:AddSkin("Onyx",{
 		Height = 36,
 	},
 	AutoCast = {
-		Width = 26,
-		Height = 26,
-		ModelScale = 0.8,
+		Width = 24,
+		Height = 24,
+		AboveNormal = true;
 	},
 	Normal = {
 		Width = 40,
