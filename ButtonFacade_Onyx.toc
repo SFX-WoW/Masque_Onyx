@@ -4,7 +4,7 @@
 ## Notes: Onyx skins for Button Facade.
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
-## X-Website: http://www.wowace.com
+## X-Website: http://www.wowace.com/projects/buttonfacade_onyx
 ## X-Category: Action Bars
 ## X-Credits: JJ Sheets
 
