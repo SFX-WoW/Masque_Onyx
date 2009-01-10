@@ -1,11 +1,11 @@
---[[ Onyx skin for ButtonFacade ]]
+--[[ Onyx @project-version@ ]]
 
-local LibButtonFacade = LibStub("LibButtonFacade",true)
-if not LibButtonFacade then
+local LBF = LibStub("LibButtonFacade", true)
+if not LBF then
 	return
 end
 
-LibButtonFacade:AddSkin("Onyx",{
+LBF:AddSkin("Onyx", {
 
 	-- Skin data start.
 	Backdrop = {
@@ -21,7 +21,7 @@ LibButtonFacade:AddSkin("Onyx",{
 	Flash = {
 		Width = 40,
 		Height = 40,
-		Color = {1, 0, 0, 1},
+		Color = {1, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
 	},
 	Cooldown = {
@@ -31,7 +31,7 @@ LibButtonFacade:AddSkin("Onyx",{
 	AutoCast = {
 		Width = 24,
 		Height = 24,
-		AboveNormal = true;
+		AboveNormal = true,
 	},
 	Normal = {
 		Width = 40,
@@ -43,14 +43,13 @@ LibButtonFacade:AddSkin("Onyx",{
 	Pushed = {
 		Width = 40,
 		Height = 40,
-		Color = {0, 0, 0, 1},
+		Color = {0, 0, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
 	},
 	Border = {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
 	Disabled = {
@@ -60,7 +59,7 @@ LibButtonFacade:AddSkin("Onyx",{
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {0, 0.75, 1, 1},
+		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
 	AutoCastable = {
@@ -74,7 +73,7 @@ LibButtonFacade:AddSkin("Onyx",{
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {1, 0.9, 0, 1},
+		Color = {1, 0.9, 0, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
 	Gloss = {
@@ -101,10 +100,10 @@ LibButtonFacade:AddSkin("Onyx",{
 	},
 	-- Skin data end.
 
-},true)
+}, true)
 
 -- Onyx Redux
-LibButtonFacade:AddSkin("Onyx Redux",{
+LBF:AddSkin("Onyx Redux", {
 
 	-- Skin data start.
 	Template = "Onyx",
@@ -119,23 +118,22 @@ LibButtonFacade:AddSkin("Onyx Redux",{
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {0, 1, 0, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Border]],
 	},
 	Checked = {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {0, 0.75, 1, 1},
+		Color = {0, 0.75, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Border]],
 	},
 	Highlight = {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 1},
+		Color = {1, 1, 1, 0.5},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Highlight]],
 	},
 	-- Skin data end.
 
-},true)
+}, true)
