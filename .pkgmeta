@@ -1,4 +1,6 @@
 package-as: ButtonFacade_Onyx
 
 required-dependencies:
-	- buttonfacade
+   - buttonfacade
+
+license-output: License.txt

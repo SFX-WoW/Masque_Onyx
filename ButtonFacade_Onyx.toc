@@ -5,8 +5,8 @@
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_onyx
-## X-Category: Action Bars
-## X-Credits: JJ Sheets
-## OptionalDeps: LibButtonFacade, ButtonFacade
+## X-Category: Interface Enhancements
+## X-WoWI-ID: 8900
+## Dependencies: ButtonFacade
 
 Skins.lua
