@@ -1,7 +1,15 @@
-## Interface: 30200
+## Interface: 30300
 ## Title: ButtonFacade: |cffff8000Onyx|r
-## Version: 3.2.@project-revision@
-## Notes: Onyx skins for Button Facade.
+## Version: 3.3.@project-revision@
+## Notes: Onyx skins for ButtonFacade.
+## Notes-deDE: Onyx Skins für ButtonFacade.
+## Notes-esMX: Onyx texturas para ButtonFacade.
+## Notes-esES: Onyx texturas para ButtonFacade.
+## Notes-frFR: Skin Onyx pour ButtonFacade.
+## Notes-koKR: ButtonFacade에 대한 Onyx 스킨.
+## Notes-ruRU: Onyx Шкурки для ButtonFacade.
+## Notes-zhCN: 为ButtonFacade Onyx皮肤。
+## Notes-zhTW: Onyx皮膚的ButtonFacade。
 ## Author: StormFX
 ## X-eMail: stormfx@gmail.com
 ## X-Website: http://www.wowace.com/projects/buttonfacade_onyx
