@@ -50,6 +50,7 @@ LBF:AddSkin("Onyx", {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 0.3},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
 	Disabled = {
@@ -118,6 +119,7 @@ LBF:AddSkin("Onyx Redux", {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
+		Color = {0, 1, 0, 0.3},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Border]],
 	},
 	Checked = {
