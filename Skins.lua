@@ -7,18 +7,11 @@ LBF:AddSkin("Onyx", {
 	Backdrop = {
 		Width = 40,
 		Height = 40,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Backdrop]],
 	},
 	Icon = {
 		Width = 32,
 		Height = 32,
-	},
-	Pushed = {
-		Width = 40,
-		Height = 40,
-		Color = {0, 0, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
 	},
 	Flash = {
 		Width = 40,
@@ -30,11 +23,16 @@ LBF:AddSkin("Onyx", {
 		Width = 36,
 		Height = 36,
 	},
+	Pushed = {
+		Width = 40,
+		Height = 40,
+		Color = {0, 0, 0, 0.5},
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Overlay]],
+	},
 	Normal = {
 		Width = 40,
 		Height = 40,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Classic]],
 	},
 	Disabled = {
@@ -53,16 +51,10 @@ LBF:AddSkin("Onyx", {
 		BlendMode = "ADD",
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
-	Highlight = {
+	Gloss = {
 		Width = 40,
 		Height = 40,
-		BlendMode = "ADD",
-		Color = {1, 0.9, 0, 0.5},
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
-	},
-	AutoCast = {
-		Width = 24,
-		Height = 24,
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Gloss]],
 	},
 	AutoCastable = {
 		Width = 54,
@@ -71,16 +63,17 @@ LBF:AddSkin("Onyx", {
 		OffsetY = -0.5,
 		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
 	},
-	Gloss = {
+	Highlight = {
 		Width = 40,
 		Height = 40,
-		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Gloss]],
+		BlendMode = "ADD",
+		Color = {1, 0.9, 0, 0.8},
+		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Arrow]],
 	},
-	HotKey = {
+	Name = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 8,
+		OffsetY = -8,
 	},
 	Count = {
 		Width = 40,
@@ -88,10 +81,15 @@ LBF:AddSkin("Onyx", {
 		OffsetX = -2,
 		OffsetY = -8,
 	},
-	Name = {
+	HotKey = {
 		Width = 40,
 		Height = 10,
-		OffsetY = -8,
+		OffsetX = -2,
+		OffsetY = 8,
+	},
+	AutoCast = {
+		Width = 24,
+		Height = 24,
 	},
 }, true)
 
@@ -102,7 +100,6 @@ LBF:AddSkin("Onyx Redux", {
 		Width = 40,
 		Height = 40,
 		Static = true,
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Redux]],
 	},
 	Checked = {
@@ -122,7 +119,6 @@ LBF:AddSkin("Onyx Redux", {
 		Width = 40,
 		Height = 40,
 		BlendMode = "ADD",
-		Color = {1, 1, 1, 1},
 		Texture = [[Interface\AddOns\ButtonFacade_Onyx\Textures\Highlight]],
 	},
 }, true)
