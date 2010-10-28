@@ -4,6 +4,7 @@ local LBF = LibStub("LibButtonFacade", true)
 if not LBF then return end
 
 LBF:AddSkin("Onyx", {
+	LBF_Version = 40000,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -73,19 +74,22 @@ LBF:AddSkin("Onyx", {
 	Name = {
 		Width = 40,
 		Height = 10,
-		OffsetY = -8,
+		OffsetY = 5,
+		FontSize = 12,
 	},
 	Count = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = -8,
+		OffsetX = -4,
+		OffsetY = 4,
+		FontSize = 12,
 	},
 	HotKey = {
 		Width = 40,
 		Height = 10,
-		OffsetX = -2,
-		OffsetY = 8,
+		OffsetX = -6,
+		OffsetY = -5,
+		FontSize = 12,
 	},
 	AutoCast = {
 		Width = 24,
