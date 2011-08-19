@@ -1,8 +1,8 @@
-Onyx is a set of skins for Masque.
+Onyx is a skin for Masque.
 
 Resources:
 
-  Project Page: http://www.wowace.com/projects/masque_Onyx
+  Project Page: http://www.wowace.com/projects/masque_onyx
   Masque: http://www.wowace.com/projects/masque
 
 Installation:
