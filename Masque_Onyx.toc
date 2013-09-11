@@ -1,6 +1,6 @@
-## Interface: 50300
+## Interface: 50400
 ## Title: Masque: |cffff8000Onyx|r
-## Version: 5.3.@project-revision@
+## Version: 5.4.@project-revision@
 ## Author: StormFX
 ## Notes: Onyx skins for Masque.
 ## Notes-zhTW: Masque的Onyx皮膚。
