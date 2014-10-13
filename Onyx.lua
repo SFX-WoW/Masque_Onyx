@@ -14,9 +14,9 @@ if not MSQ then return end
 
 MSQ:AddSkin("Onyx", {
 	Author = "StormFX",
-	Version = "5.4.@project-revision@",
+	Version = "6.0.0",
 	Shape = "Square",
-	Masque_Version = 40300,
+	Masque_Version = 60000,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
