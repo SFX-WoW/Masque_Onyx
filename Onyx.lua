@@ -1,20 +1,22 @@
 --[[
+
 	This file is part of 'Masque: Onyx', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File.....: Onyx.lua
-	* Revision.: @file-revision@
-	* Author...: StormFX
+	* File...: Onyx.lua
+	* Date...: @file-date-iso@
+	* Hash...: @file-abbreviated-hash@
+	* Author.: StormFX
 
-	Onyx Skins
 ]]
 
 local MSQ = LibStub("Masque", true)
 if not MSQ then return end
 
+-- Onyx
 MSQ:AddSkin("Onyx", {
 	Author = "StormFX",
-	Version = "6.2.0",
+	Version = "@project-version@",
 	Shape = "Square",
 	Masque_Version = 60200,
 	Backdrop = {
@@ -33,6 +35,10 @@ MSQ:AddSkin("Onyx", {
 		Texture = [[Interface\AddOns\Masque_Onyx\Textures\Overlay]],
 	},
 	Cooldown = {
+		Width = 36,
+		Height = 36,
+	},
+	ChargeCooldown = {
 		Width = 36,
 		Height = 36,
 	},
