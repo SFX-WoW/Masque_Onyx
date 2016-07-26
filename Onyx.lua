@@ -109,7 +109,7 @@ MSQ:AddSkin("Onyx", {
 		Width = 40,
 		Height = 10,
 	},
-	AutoCast = {
+	Shine = {
 		Width = 24,
 		Height = 24,
 	},
