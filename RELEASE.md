@@ -1,3 +1,5 @@
-### 7.2.0 ###
+### 7.2.1 ###
 
-- ToC to 70200.
+- Repository updates.
+- Update ReadMe.
+- Update locales.
