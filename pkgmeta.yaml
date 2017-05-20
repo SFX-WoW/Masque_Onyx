@@ -11,3 +11,6 @@ manual-changelog:
 
 ignore:
   - RELEASE.md
+  
+tools-used:
+  - libstub
