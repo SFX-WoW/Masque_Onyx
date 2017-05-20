@@ -4,8 +4,6 @@
 	please see the included License.txt file.
 
 	* File...: Onyx.lua
-	* Date...: @file-date-iso@
-	* Hash...: @file-abbreviated-hash@
 	* Author.: StormFX
 
 ]]
@@ -16,9 +14,9 @@ if not MSQ then return end
 -- Onyx
 MSQ:AddSkin("Onyx", {
 	Author = "StormFX",
-	Version = "@project-version@",
+	Version = "7.2.1",
 	Shape = "Square",
-	Masque_Version = 60200,
+	Masque_Version = 70200,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
