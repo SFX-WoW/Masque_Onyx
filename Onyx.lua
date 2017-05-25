@@ -11,10 +11,13 @@
 local MSQ = LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, _ = ...
+local Version = GetAddOnMetadata(AddOn, "Version")
+
 -- Onyx
 MSQ:AddSkin("Onyx", {
 	Author = "StormFX",
-	Version = "7.2.1",
+	Version = Version,
 	Shape = "Square",
 	Masque_Version = 70200,
 	Backdrop = {
