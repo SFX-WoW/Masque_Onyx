@@ -2,11 +2,7 @@
 
 **Onyx** is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft Website") that adds a set of skins for [Masque][].
 
------
-
 _**Note:** You *must* have [Masque][] installed to use this add-on._
-
------
 
 ### Skins ###
 
