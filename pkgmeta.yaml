@@ -1,7 +1,7 @@
 package-as: Masque_Onyx
 
 required-dependencies:
-   - masque
+  - masque
 
 enable-nolib-creation: no
 
@@ -10,6 +10,7 @@ manual-changelog:
   markup-type: markdown
 
 ignore:
+  - _docs\
   - RELEASE.md
   
 tools-used:
