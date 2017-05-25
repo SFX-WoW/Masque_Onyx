@@ -1,6 +1,6 @@
 ### 7.2.1 ###
 
-- Repository updates.
+- Masque version update.
 - Update ReadMe.
 - Update locales.
 
