@@ -2,7 +2,7 @@
 
 _Onyx_ is an add-on for [World of Warcraft](https://worldofwarcraft.com "World of Warcraft Website") that adds a set of skins for [Masque][].
 
-_**Note:** You *must* have [Masque][] installed to use this add-on._
+_**Note:** You must have [Masque][] installed to use this add-on._
 
 ### Skins ###
 
@@ -17,8 +17,8 @@ Install the package through your preferred add-on manager. You can also install 
 
 1. Download the package from one of the following sites:
     - [Curse](https://mods.curse.com/addons/wow/masque-onyx "Download from Curse")
-    - [WoW Interface](http://www.wowinterface.com/downloads/info8900 "Download from WoW Interface")  
     - [WoW Ace](https://www.wowace.com/projects/masque-onyx "Download from WoW Ace")
+    - [WoW Interface](http://www.wowinterface.com/downloads/info8900 "Download from WoW Interface")  
 2. Extract the package to your **World of Warcraft\Interface\AddOns** directory.
 
 ### Links ###
