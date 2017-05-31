@@ -1,6 +1,7 @@
 ### 7.2.1 ###
 
-- Masque version update.
+- Add support for Equipped and Cooldown colors.
+- Update Masque_Version.
 - Update ReadMe.
 - Update locales.
 
