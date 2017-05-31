@@ -7,7 +7,7 @@
 
 [COLOR=Orange][SIZE="4"]Skins[/SIZE][/COLOR]
 
-This skin set contains the following skins:
+This set contains the following skins:
 
 [LIST]
 [*] Onyx
