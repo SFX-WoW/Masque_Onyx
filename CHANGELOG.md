@@ -1,9 +1,13 @@
+### 7.3.0 ###
+
+- ToC to 70300.
+
 ### 7.2.1 ###
 
-- Add support for Equipped and Cooldown colors.
-- Update Masque_Version.
-- Update ReadMe.
-- Update locales.
+- Added support for Equipped and Cooldown colors.
+- Updated Masque_Version.
+- Updated ReadMe.
+- Updated Locales.
 
 ### 7.2.0 ###
 
@@ -16,20 +20,18 @@
 ### 7.0.0 ###
 
 - ToC to 70000.
-- Update version.
-- Rename "Autocast" to "Shine".
+- Renamed Autocast to Shine.
 
 ### 6.2.2 ###
 
-- Fix links in Readme.
-- Update Changelog.
+- Fixed links in Readme.
 
 ### 6.2.1 ###
 
 - SVN to Git conversion.
-- Add ChargeCooldown.
-- Update Changelog, License and Readme.
-- Update .pkgmeta
+- Added ChargeCooldown.
+- Updated License and Readme.
+- Updated .pkgmeta
 
 ### 6.2.0 ###
 
@@ -70,31 +72,31 @@
 ### 4.2.70 ###
 
 - Renamed to Masque_Onyx.
-- Update to Masque's API.
+- Updated to Masque's API.
 - Localization update.
 
 ### 4.0.62 ###
 
 - ToC to 40000.
-- Equip border color.
+- Equipped border color.
 
 ### 3.3.57 ###
 
 - ToC to 30300.
 - Localization update.
-- Update License and Changelog.
+- Updated License.
 
 ### 3.2.55 ###
 
 - ToC to 30200.
 - Localization update.
-- Update License and Changelog.
+- Updated License.
 
 ### 3.1.47 ###
 
-- Update License.
-- Add X-WoWI-ID.
-- Update X-Category.
+- Updated License.
+- Added X-WoWI-ID.
+- Updated X-Category.
 
 ### 3.1.44 ###
 
@@ -102,21 +104,21 @@
 
 ### 3.0.40 ###
 
-- Fix a typo.
-- Adjust version.
-- Fix debuff coloring.
+- Fixed a typo.
+- Adjusted version.
+- Fixed debuff coloring.
 - Texture tweaks.
 
 ### 3.0.3.2 ###
 
 - ToC Fixes.
-- Update version.
+- Updated version.
 
 ### 3.0.2.2 ###
 
-- Adjust Autocast.
+- Adjusted Autocast.
 
 ### 3.0.2 ###
 
 - ToC to 30000.
-- Update files.
+- Updated files.
