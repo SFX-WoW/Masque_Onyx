@@ -1,6 +1,6 @@
-## Interface: 70300
+## Interface: 80000
 ## Title: Masque: |cffff8000Onyx|r
-## Version: 7.3.0
+## Version: 8.0.0
 ## Author: StormFX
 ## Dependencies: Masque
 ## Notes: Onyx skins for Masque.
@@ -8,6 +8,7 @@
 ## Notes-esES: Skin Onyx para Masque.
 ## Notes-esMX: Skin Onyx para Masque.
 ## Notes-itIT: Skin Onyx per Masque.
+## Notes-ruRU: Скин Onyx для Masque.
 ## Notes-zhTW: Masque的Onyx皮膚。
 ## X-Website: https://www.wowace.com/projects/masque-onyx
 ## X-Category: Interface Enhancements
