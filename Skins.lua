@@ -3,23 +3,49 @@
 	This file is part of 'Masque: Onyx', an add-on for World of Warcraft. For license information,
 	please see the included License.txt file.
 
-	* File...: Onyx.lua
+	* File...: Skins.lua
 	* Author.: StormFX
 
+	Onyx Skins
 ]]
 
-local MSQ = LibStub("Masque", true)
+-- GLOBALS: GetAddOnMetadata, LibStub
+
+local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
-local AddOn, _ = ...
-local Version = GetAddOnMetadata(AddOn, "Version")
+----------------------------------------
+-- Locals
+----------------------------------------
 
+local AddOn, Core = ...
+
+-- Locale
+local L = Core.Locale
+
+-- Skin Info
+local Version = GetAddOnMetadata(AddOn, "Version")
+local Authors = "StormFX"
+local Websites = {
+	"https://github.com/stormfx/masque_onyx",
+	"https://www.wowace.com/projects/masque-onyx",
+	"https://www.curseforge.com/wow/addons/masque-onyx",
+	"https://www.wowinterface.com/downloads/info8882",
+}
+
+----------------------------------------
 -- Onyx
+----------------------------------------
+
 MSQ:AddSkin("Onyx", {
-	Author = "StormFX",
-	Version = Version,
 	Shape = "Square",
-	Masque_Version = 70200,
+	Group = "Onyx",
+	Order = 1,
+	Version = Version,
+	Authors = Authors,
+	Websites = Websites,
+	Description = L["A dark skin with rounded corners and arrow indicators."],
+	Masque_Version = 80000,
 	Backdrop = {
 		Width = 40,
 		Height = 40,
@@ -34,15 +60,6 @@ MSQ:AddSkin("Onyx", {
 		Height = 40,
 		Color = {1, 0, 0, 0.3},
 		Texture = [[Interface\AddOns\Masque_Onyx\Textures\Overlay]],
-	},
-	Cooldown = {
-		Width = 36,
-		Height = 36,
-		Color = {0, 0, 0, 0.7},
-	},
-	ChargeCooldown = {
-		Width = 36,
-		Height = 36,
 	},
 	Pushed = {
 		Width = 40,
@@ -112,15 +129,30 @@ MSQ:AddSkin("Onyx", {
 		Width = 40,
 		Height = 10,
 	},
+	Cooldown = {
+		Width = 36,
+		Height = 36,
+		Color = {0, 0, 0, 0.7},
+	},
+	ChargeCooldown = {
+		Width = 36,
+		Height = 36,
+	},
 	Shine = {
 		Width = 24,
 		Height = 24,
 	},
 }, true)
 
--- Onyx Redux
-MSQ:AddSkin("Onyx Redux", {
+----------------------------------------
+-- Onyx - Redux
+----------------------------------------
+
+MSQ:AddSkin("Onyx - Redux", {
+	Title = "Redux",
+	Order = 2,
 	Template = "Onyx",
+	Description = L["An alternate version of Onyx without arrow indicators."],
 	Normal = {
 		Width = 40,
 		Height = 40,
