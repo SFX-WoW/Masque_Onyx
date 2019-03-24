@@ -130,13 +130,13 @@ MSQ:AddSkin("Onyx", {
 		Height = 10,
 	},
 	Cooldown = {
-		Width = 36,
-		Height = 36,
+		Width = 27,
+		Height = 27,
 		Color = {0, 0, 0, 0.7},
 	},
 	ChargeCooldown = {
-		Width = 36,
-		Height = 36,
+		Width = 27,
+		Height = 27,
 	},
 	Shine = {
 		Width = 24,
