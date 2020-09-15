@@ -42,8 +42,6 @@ If you'd like to support the development of this and other projects, you can use
 - [WoW Ace][WoW Ace]
 - [WoW Interface]
 
-[Masque]: https://www.wowace.com/projects/masque (Download Masque)
-
 [Links]: #
 
 [Build]: https://github.com/SFX-WoW/Masque_Onyx/actions?query=workflow%3ARelease (Build Status)
