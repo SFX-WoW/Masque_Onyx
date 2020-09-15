@@ -1,12 +1,13 @@
 --[[
 
-	This file is part of 'Masque: Onyx', an add-on for World of Warcraft. For license information,
-	please see the included License.txt file.
+	This file is part of 'Masque: Onyx', an add-on for World of Warcraft. For bug reports,
+	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Onyx.
 
 	* File...: Skins.lua
 	* Author.: StormFX
 
 	Onyx Skins
+
 ]]
 
 -- GLOBALS: GetAddOnMetadata, LibStub
@@ -14,20 +15,19 @@
 local MSQ = LibStub and LibStub("Masque", true)
 if not MSQ then return end
 
+local AddOn, Core = ...
+
 ----------------------------------------
 -- Locals
-----------------------------------------
-
-local AddOn, Core = ...
+---
 
 -- Locale
 local L = Core.Locale
 
 -- Skin Info
 local Version = GetAddOnMetadata(AddOn, "Version")
-local Authors = "StormFX"
 local Websites = {
-	"https://github.com/stormfx/masque_onyx",
+	"https://github.com/SFX-WoW/Masque_Onyx",
 	"https://www.wowace.com/projects/masque-onyx",
 	"https://www.curseforge.com/wow/addons/masque-onyx",
 	"https://www.wowinterface.com/downloads/info8882",
@@ -35,14 +35,14 @@ local Websites = {
 
 ----------------------------------------
 -- Onyx
-----------------------------------------
+---
 
 MSQ:AddSkin("Onyx", {
 	Shape = "Square",
 	Group = "Onyx",
 	Order = 1,
 	Version = Version,
-	Authors = Authors,
+	Author = "StormFX",
 	Websites = Websites,
 	Description = L["A dark skin with rounded corners and arrow indicators."],
 	Masque_Version = 80000,
@@ -146,7 +146,7 @@ MSQ:AddSkin("Onyx", {
 
 ----------------------------------------
 -- Onyx - Redux
-----------------------------------------
+---
 
 MSQ:AddSkin("Onyx - Redux", {
 	Title = "Redux",
