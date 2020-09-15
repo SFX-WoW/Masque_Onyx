@@ -5,18 +5,23 @@
 # ## Interface: 11305
 #@end-non-retail@
 ## Title: Masque: Onyx
-## Version: @project-version@
-## Author: StormFX
-## Dependencies: Masque
+
 ## Notes: Onyx skins for Masque.
 ## Notes-deDE: Onyx-Skin für Masque.
 ## Notes-esES: Skin Onyx para Masque.
 ## Notes-esMX: Skin Onyx para Masque.
+## Notes-frFR: Skin de Onyx pour Masque.
 ## Notes-itIT: Skin Onyx per Masque.
 ## Notes-ruRU: Скин Onyx для Masque.
 ## Notes-zhTW: Masque的Onyx皮膚。
-## X-Website: https://www.wowace.com/projects/masque-onyx
+
+## Version: @project-version@
+## Author: StormFX
+## Dependencies: Masque
+
+## X-Website: https://github.com/SFX-WoW/Masque_Onyx
 ## X-Category: Interface Enhancements
+## X-Curse-Project-ID: 13601
 ## X-WoWI-ID: 8900
 
 # Locales
