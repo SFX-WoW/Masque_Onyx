@@ -30,7 +30,7 @@ local Locale = GetLocale()
 if Locale == "enGB" or Locale == "enUS" then
 	-- enUS/enGB for Reference
 	--L["A dark skin with rounded corners and arrow indicators."] = "A dark skin with rounded corners and arrow indicators."
-	--L["An alternate version of _Onyx_ without arrow indicators."] = "An alternate version of _Onyx_ without arrow indicators."
+	--L["An alternate version of Onyx without arrow indicators."] = "An alternate version of Onyx without arrow indicators."
 	return
 --elseif Locale == "deDE" then
 --elseif Locale == "esES" or Locale == "esMX" then
