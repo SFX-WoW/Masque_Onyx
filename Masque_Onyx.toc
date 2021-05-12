@@ -18,7 +18,7 @@
 
 ## X-Website: https://github.com/SFX-WoW/Masque_Onyx
 ## X-Category: Interface Enhancements
-## X-Curse-Project-ID: 13601
+## X-Curse-Project-ID: 13600
 ## X-Wago-ID: LvNA7oKo
 ## X-WoWI-ID: 8900
 
