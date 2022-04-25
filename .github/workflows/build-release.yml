@@ -1,0 +1,20 @@
+# Calls a workflow that builds a release.
+
+name: Build Release
+
+on:
+  push:
+    tags:
+      - '*'
+      - '!**-alpha**'
+    paths-ignore:
+      - '.github/**'
+
+jobs:
+  package:
+    name: Package Release
+    uses: SFX-WoW/shared/.github/workflows/build-release.yml@main
+    secrets:
+      CF_API_KEY: ${{ secrets.CF_API_KEY }}
+      WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+      WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
