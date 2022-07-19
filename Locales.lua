@@ -1,7 +1,7 @@
 --[[
 
 	This file is part of 'Masque: Onyx', an add-on for World of Warcraft. For bug reports,
-	suggestions and license information, please visit https://github.com/SFX-WoW/Masque_Onyx.
+	documentation and license information, please visit https://github.com/SFX-WoW/Masque_Onyx.
 
 	* File...: Locales.lua
 	* Author.: StormFX
@@ -29,8 +29,8 @@ local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
 	-- enUS/enGB for Reference
-	--L["A dark skin with rounded corners and arrow indicators."] = "A dark skin with rounded corners and arrow indicators."
-	--L["An alternate version of Onyx without arrow indicators."] = "An alternate version of Onyx without arrow indicators."
+	--L["A dark skin with slightly rounded corners."] = "A dark skin with slightly rounded corners."
+	--L["The classic Onyx skin with arrow indicators."] = "The classic Onyx skin with arrow indicators."
 	return
 --elseif Locale == "deDE" then
 --elseif Locale == "esES" or Locale == "esMX" then
