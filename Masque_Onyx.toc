@@ -1,6 +1,4 @@
-## Interface: 90005
-## Interface-BC: 20501
-## Interface-Classic: 11307
+## Interface: 90205
 
 ## Title: Masque: Onyx
 ## Notes: Onyx skins for Masque.
