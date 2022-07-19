@@ -13,8 +13,8 @@
 
 This set includes the following skins:
 
-- **Onyx** - A dark skin with rounded corners and arrow indicators.
-- **Onyx - Redux** - An alternate version of _Onyx_ without arrow indicators.
+- **Onyx** - A dark skin with slightly rounded corners.
+- **Onyx Classic** - The classic _Onyx_ skin with arrow indicators.
 
 ## [Requirements][Top]
 
@@ -71,7 +71,7 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 
 [Images]: #
 
-[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/Masque_Onyx/Release?label=Build&logo=github&logoColor=fff&style=flat-square
+[SVG-Build]: https://img.shields.io/github/workflow/status/SFX-WoW/Masque_Onyx/Build%20Release?label=Build&logo=github&logoColor=fff&style=flat-square
 [SVG-Masque]: https://img.shields.io/endpoint?url=https://wow.stormfx.com/img/svg/masque-skin.json
 [SVG-Discord]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/discord.json
 [SVG-Twitter]: https://img.shields.io/endpoint?url=https://www.stormfx.com/img/svg/twitter.json
