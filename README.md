@@ -34,7 +34,7 @@ For bug reports and suggestions, use the [issue tracker]. Direct any questions o
 
 ## [Localization][Top]
 
-To help translate this add-on, use the [localization system] on WoW Ace. Alternatively, you can use the [issue tracker].
+To help translate this add-on, use the [localization system] on CurseForge. Alternatively, you can use the [issue tracker].
 
 ## [Links][Top]
 
@@ -44,7 +44,6 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
   - [GitHub]
   - [CurseForge]
   - [Wago.io]
-  - [WoW Ace]
   - [WoW Interface]
 
 [Links]: #
@@ -59,12 +58,11 @@ To help translate this add-on, use the [localization system] on WoW Ace. Alterna
 [World of Warcraft]: https://worldofwarcraft.com (World of Warcraft)
 
 [Issue Tracker]: https://github.com/SFX-WoW/Masque_Onyx/issues (Report an Issue)
-[Localization System]: https://www.wowace.com/projects/masque-onyx/localization (Translate on WoW Ace)
+[Localization System]: https://www.curseforge.com/wow/addons/masque-onyx/localization (Translate on CurseForge)
 
 [CurseForge]: https://www.curseforge.com/wow/addons/masque-onyx (View on CurseForge)
 [GitHub]: https://github.com/SFX-WoW/Masque_Onyx (View on GitHub)
 [Wago.io]: https://addons.wago.io/addons/masque-onyx (View on Wago.io)
-[WoW Ace]: https://www.wowace.com/projects/masque-onyx (View on WoW Ace)
 [WoW Interface]: https://www.wowinterface.com/downloads/info8900 (View on WoW Interface)
 
 [Top]: #Top (Top of the Page)
