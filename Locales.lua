@@ -8,24 +8,19 @@
 
 ]]
 
--- GLOBALS: GetLocale, setmetatable
-
 local _, Core = ...
 
 ----------------------------------------
--- Locales
+-- WoW API
+---
+
+local Locale = GetLocale()
+
+----------------------------------------
+-- Localization
 ---
 
 local L = {}
-
-Core.Locale = setmetatable(L, {
-	__index = function(self, k)
-		self[k] = k
-		return k
-	end
-})
-
-local Locale = GetLocale()
 
 if Locale == "enGB" or Locale == "enUS" then
 	-- enUS/enGB for Reference
@@ -42,3 +37,14 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "zhCN" then
 --elseif Locale == "zhTW" then
 end
+
+----------------------------------------
+-- Core
+---
+
+Core.Locale = setmetatable(L, {
+	__index = function(self, k)
+		self[k] = k
+		return k
+	end
+})
