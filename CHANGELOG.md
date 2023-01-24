@@ -1,9 +1,9 @@
-## 10.0.2
+## 10.0.5
 
 ### Release Notes
 
-- Minor code clean-up.
-- Updated the `API_VERSION` to `100002`. (#20)
-- Updated the `Interface` version for _Retail_ to `100002`. (#21)
+- Updated the `Interface` version for **Retail** to `100005`. (#23)
+- Updated the `Interface` version for **Wrath Classic** to `30401`. (#22)
+- Updated the skins for **Masque** 10.0.5. (#24)
 
 [Release History](https://github.com/SFX-WoW/Masque_Onyx/wiki/History)
