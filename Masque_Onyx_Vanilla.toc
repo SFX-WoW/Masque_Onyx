@@ -15,7 +15,7 @@
 ## Notes-zhTW: Masque的Onyx皮膚。
 
 ## X-Category: Interface Enhancements
-## X-Discord: https://discord.gg/DDVqkd6
+## X-Discord: https://discord.gg/7MTWRgDzz8
 ## X-Website: https://github.com/SFX-WoW/Masque_Onyx
 
 ## X-Curse-Project-ID: 13600
