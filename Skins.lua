@@ -22,7 +22,7 @@ local AddOn, Core = ...
 local L = Core.Locale
 
 ----------------------------------------
--- Local
+-- Locals
 ---
 
 local API_VERSION = 100100
