@@ -28,7 +28,7 @@ local L = Core.Locale
 local API_VERSION = 100100
 
 -- Skin Info
-local Version = GetAddOnMetadata(AddOn, "Version")
+local Version = "@project-version@"
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Onyx",
 	"https://www.curseforge.com/wow/addons/masque-onyx",
