@@ -1,9 +1,11 @@
 ## Interface: 11403
 
 ## Author: StormFX
-## Dependencies: Masque
 ## Title: Masque: Onyx
 ## Version: @project-version@
+
+## Dependencies: Masque
+## IconTexture: Interface\AddOns\Masque_Onyx\Textures\Icon
 
 ## Notes: Onyx skins for Masque.
 ## Notes-deDE: Onyx-Skin für Masque.
