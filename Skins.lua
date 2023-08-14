@@ -476,6 +476,10 @@ MSQ:AddSkin("Onyx", {
 		OffsetY = 0,
 		SetAllPoints = true,
 	},
+	SpellAlert = {
+		Width = 32,
+		Height = 32,
+	},
 })
 
 ----------------------------------------
