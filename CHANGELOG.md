@@ -1,7 +1,8 @@
-## 10.1.6
+## 10.1.7
 
 ### Release Notes
 
-- Updated the `SpellAlert` size for **Masque** 10.1.5.
+- Updated the `Interface` version for **Retail** to `100107`. (#31)
+- Updated the `Interface` version for **Classic** to `11404`. (#30)
 
 [Release History](https://github.com/SFX-WoW/Masque_Onyx/wiki/History)
