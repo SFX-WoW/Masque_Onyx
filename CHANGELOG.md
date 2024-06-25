@@ -1,9 +1,9 @@
-## 10.2.7
+## 10.2.8
 
 ### Release Notes
 
-- Updated the `Interface` version for **Retail** to `100207`. (#41)
-- Updated the `Interface` version for **Vanilla** to `11502`. (#40)
-- Removed support for **Wrath Classic**. (#39)
+- Added support for custom spell alert animations. (#43)
+- Switched to a single ToC file. (#42)
+- Updated the `API_VERSION` to `100207`.
 
 [Release History](https://github.com/SFX-WoW/Masque_Onyx/wiki/History)
