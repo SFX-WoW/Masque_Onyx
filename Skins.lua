@@ -444,8 +444,8 @@ MSQ:AddSkin("Onyx", {
 		-- UseColor = nil,
 	},
 	-- [ AutoCastOverlay (Retail) ]
-	-- AutoCast_Frame = Template.AutoCast_Frame,
-	-- AutoCast_Shine = Template.AutoCast_Shine,
+	-- AutoCast_Frame = Default.AutoCast_Frame,
+	-- AutoCast_Shine = Default.AutoCast_Shine,
 	AutoCast_Mask = {
 		-- Atlas = "UI-HUD-ActionBar-PetAutoCast-Mask",
 		-- UseAtlasSize = false,
@@ -455,8 +455,8 @@ MSQ:AddSkin("Onyx", {
 		Height = 26,
 		Point = "CENTER",
 		RelPoint = "CENTER",
-		OffsetX = -0.5,
-		OffsetY = 0.5,
+		OffsetX = 0,
+		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
 	AutoCast_Corners = {
@@ -470,8 +470,8 @@ MSQ:AddSkin("Onyx", {
 		Height = 31,
 		Point = "CENTER",
 		RelPoint = "CENTER",
-		OffsetX = -0.5,
-		OffsetY = 0.5,
+		OffsetX = 0,
+		OffsetY = 0,
 		-- SetAllPoints = true,
 	},
 	-- [ AutoCastShine (Classic) ]
@@ -498,7 +498,17 @@ MSQ:AddSkin("Onyx", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	ChargeCooldown = "Cooldown",
+	ChargeCooldown = {
+		EdgeTexture = [[Interface\AddOns\Masque\Textures\Square\Edge]],
+		PulseTexture = [[Interface\Cooldown\star4]],
+		Width = 26,
+		Height = 26,
+		Point = "CENTER",
+		RelPoint = "CENTER",
+		OffsetX = 0,
+		OffsetY = 0,
+		-- SetAllPoints = nil,
+	},
 	-- [ SpellAlert ]
 	SpellAlert = {
 		Width = 24,
