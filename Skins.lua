@@ -511,8 +511,16 @@ MSQ:AddSkin("Onyx", {
 	},
 	-- [ SpellAlert ]
 	SpellAlert = {
-		Width = 24,
-		Height = 24,
+		Width = 34,
+		Height = 34,
+		Classic = {
+			Height = 30,
+			Width = 30,
+		},
+		Thin = {
+			Height = 24,
+			Width = 24,
+		},
 	},
 })
 
