@@ -514,8 +514,12 @@ MSQ:AddSkin("Onyx", {
 		Width = 34,
 		Height = 34,
 		Classic = {
-			Height = 30,
-			Width = 30,
+			Height = 28,
+			Width = 28,
+		},
+		Modern = {
+			Height = 28,
+			Width = 28,
 		},
 		Thin = {
 			Height = 24,
