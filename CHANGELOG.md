@@ -1,9 +1,9 @@
-## 11.0.2
+## 11.1.0
 
 ### Release Notes
 
-- Added support for **The War Within** `11.0.5`. (#50)
-- Added support for **Cataclysm Classic** `4.4.1`.. (#50)
-- Updated the `Interface` version for **Classic Era** to `11504`. (#50)
+- Updated the `Interface` version for **The War Within** to `110100`. (#51)
+- Updated the `Interface` version for **Cataclysm Classic** to `40402`. (#51)
+- Updated the `Interface` version for **Classic Era** to `11506`. (#51)
 
 [Release History](https://github.com/SFX-WoW/Masque_Onyx/wiki/History)
