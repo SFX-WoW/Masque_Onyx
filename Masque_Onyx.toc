@@ -4,6 +4,7 @@
 ## Title: Masque: Onyx
 ## Version: @project-version@
 
+## Category: Masque
 ## Dependencies: Masque
 ## IconTexture: Interface\AddOns\Masque_Onyx\Textures\Icon
 
