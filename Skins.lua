@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 110107
+local API_VERSION = 110207
 
 -- Skin Info
 local Version = "@project-version@"
@@ -507,10 +507,14 @@ MSQ:AddSkin("Onyx", {
 		OffsetY = 0,
 		-- SetAllPoints = nil,
 	},
-	-- [ SpellAlert ]
+	-- [ SpellAlerts ]
 	SpellAlert = {
 		Width = 34,
 		Height = 34,
+		AltGlow = {
+			Height = 43,
+			Width = 43,
+		},
 		Classic = {
 			Height = 28,
 			Width = 28,
@@ -519,10 +523,14 @@ MSQ:AddSkin("Onyx", {
 			Height = 28,
 			Width = 28,
 		},
-		Thin = {
-			Height = 24,
-			Width = 24,
+		["Modern-Lite"] = {
+			Height = 31,
+			Width = 31,
 		},
+	},
+	AssistedCombatHighlight = {
+		Width = 43,
+		Height = 43,
 	},
 })
 
@@ -633,4 +641,6 @@ MSQ:AddSkin("Onyx Classic", {
 	-- AutoCastShine = Template.AutoCastShine,
 	-- Cooldown = Template.Cooldown,
 	-- ChargeCooldown = Template.ChargeCooldown,
+	-- SpellAlert = Template.SpellAlert,
+	-- AssistedCombatHighlight = Template.AssistedCombatHighlight,
 })
