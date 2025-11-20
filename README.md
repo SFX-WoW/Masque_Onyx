@@ -26,10 +26,6 @@ This add-on requires [Masque].
 
 Install the package through your preferred add-on manager or extract the archive to your add-ons directory.
 
-- **Retail:** `World of Warcraft\_retail_\Interface\AddOns`
-- **Classic Era:** `World of Warcraft\_classic_era_\Interface\AddOns`
-- **Mists Classic:** `World of Warcraft\_classic_\Interface\AddOns`
-
 ## [Feedback][Top]
 
 For bug reports and suggestions, use the [issue tracker]. Direct any questions or comments to [Discord].
