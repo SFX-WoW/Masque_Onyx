@@ -11,15 +11,10 @@
 local _, Core = ...
 
 ----------------------------------------
--- WoW API
+-- Locals
 ---
 
 local Locale = GetLocale()
-
-----------------------------------------
--- Local
----
-
 local L = {}
 
 ----------------------------------------
@@ -38,9 +33,8 @@ Core.Locale = setmetatable(L, {
 ---
 
 if Locale == "enGB" or Locale == "enUS" then
-	-- enUS/enGB for Reference
-	--L["A dark skin with slightly rounded corners."] = "A dark skin with slightly rounded corners."
-	--L["The classic Onyx skin with arrow indicators."] = "The classic Onyx skin with arrow indicators."
+	L["A dark skin with slightly rounded corners."] = "A dark skin with slightly rounded corners."
+	L["The classic Onyx skin with arrow indicators."] = "The classic Onyx skin with arrow indicators."
 	return
 --elseif Locale == "deDE" then
 --elseif Locale == "esES" or Locale == "esMX" then
@@ -48,7 +42,9 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
 --elseif Locale == "ptBR" then
---elseif Locale == "ruRU" then
+elseif Locale == "ruRU" then
+	L["A dark skin with slightly rounded corners."] = "Темный скин со слегка закругленными углами."
+	L["The classic Onyx skin with arrow indicators."] = "Классический скин Onyx со стрелочными индикаторами."
 --elseif Locale == "zhCN" then
 --elseif Locale == "zhTW" then
 end
