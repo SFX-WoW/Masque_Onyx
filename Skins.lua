@@ -28,7 +28,7 @@ local L = Core.Locale
 local API_VERSION = 110207
 
 -- Skin Info
-local Version = "11.2.6"
+local Version = "@project-version@"
 local Websites = {
 	"https://github.com/SFX-WoW/Masque_Onyx",
 	"https://www.curseforge.com/wow/addons/masque-onyx",
