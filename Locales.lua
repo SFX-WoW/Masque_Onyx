@@ -46,5 +46,7 @@ elseif Locale == "ruRU" then
 	L["A dark skin with slightly rounded corners."] = "Темный скин со слегка закругленными углами."
 	L["The classic Onyx skin with arrow indicators."] = "Классический скин Onyx со стрелочными индикаторами."
 --elseif Locale == "zhCN" then
---elseif Locale == "zhTW" then
+elseif Locale == "zhTW" then
+	L["A dark skin with slightly rounded corners."] = "一個暗黑外觀帶有圓潤的邊角。"
+	L["The classic Onyx skin with arrow indicators."] = "經典的Onyx外觀搭配箭頭指示器。"
 end
