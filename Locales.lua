@@ -41,7 +41,9 @@ if Locale == "enGB" or Locale == "enUS" then
 --elseif Locale == "frFR" then
 --elseif Locale == "itIT" then
 --elseif Locale == "koKR" then
---elseif Locale == "ptBR" then
+elseif Locale == "ptBR" then
+	L["A dark skin with slightly rounded corners."] = "Uma aparência escura com cantos levemente arredondados."
+	L["The classic Onyx skin with arrow indicators."] = "A aparência Onyx clássica com indicadores de seta."
 elseif Locale == "ruRU" then
 	L["A dark skin with slightly rounded corners."] = "Темный скин со слегка закругленными углами."
 	L["The classic Onyx skin with arrow indicators."] = "Классический скин Onyx со стрелочными индикаторами."
