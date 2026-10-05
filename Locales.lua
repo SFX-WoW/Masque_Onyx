@@ -32,23 +32,22 @@ Core.Locale = setmetatable(L, {
 -- Localization
 ---
 
-if Locale == "enGB" or Locale == "enUS" then
-	L["A dark skin with slightly rounded corners."] = "A dark skin with slightly rounded corners."
-	L["The classic Onyx skin with arrow indicators."] = "The classic Onyx skin with arrow indicators."
-	return
---elseif Locale == "deDE" then
---elseif Locale == "esES" or Locale == "esMX" then
---elseif Locale == "frFR" then
---elseif Locale == "itIT" then
---elseif Locale == "koKR" then
+if Locale == "deDE" then
+--@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "esES" or Locale == "esMX" then
+--@localization(locale="esES", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "frFR" then
+--@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "itIT" then
+--@localization(locale="itIT", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "koKR" then
+--@localization(locale="koKR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ptBR" then
-	L["A dark skin with slightly rounded corners."] = "Uma aparência escura com cantos levemente arredondados."
-	L["The classic Onyx skin with arrow indicators."] = "A aparência Onyx clássica com indicadores de seta."
+--@localization(locale="ptBR", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "ruRU" then
-	L["A dark skin with slightly rounded corners."] = "Темный скин со слегка закругленными углами."
-	L["The classic Onyx skin with arrow indicators."] = "Классический скин Onyx со стрелочными индикаторами."
---elseif Locale == "zhCN" then
+--@localization(locale="ruRU", format="lua_additive_table", handle-unlocalized="ignore")@
+elseif Locale == "zhCN" then
+--@localization(locale="zhCN", format="lua_additive_table", handle-unlocalized="ignore")@
 elseif Locale == "zhTW" then
-	L["A dark skin with slightly rounded corners."] = "一個暗黑外觀帶有圓潤的邊角。"
-	L["The classic Onyx skin with arrow indicators."] = "經典的Onyx外觀搭配箭頭指示器。"
+--@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore")@
 end
