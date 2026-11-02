@@ -25,7 +25,7 @@ local L = Core.Locale
 -- Locals
 ---
 
-local API_VERSION = 120000
+local API_VERSION = 120100
 
 -- Skin Info
 local Version = "@project-version@"
@@ -201,20 +201,17 @@ Masque:AddSkin("Onyx", {
 		OffsetX = -3,
 		OffsetY = -3,
 	},
-	-- [ AutoCastShine (Classic) ]
-	AutoCastable = {
-		Texture = [[Interface\Buttons\UI-AutoCastableOverlay]],
-		Width = 54,
-		Height = 54,
+	-- [ AutoCastOverlay ]
+	AutoCast_Frame = {
+		Width = 37,
+		Height = 37,
+		Classic = {
+			Width = 24,
+			Height = 24,
+			OffsetX = 1,
+			OffsetY = -1,
+		},
 	},
-	AutoCastShine = {
-		Width = 27,
-		Height = 27,
-		OffsetX = 1,
-		OffsetY = -1,
-	},
-	-- [ AutoCastOverlay (Retail) ]
-	-- AutoCast_Frame = Default.AutoCast_Frame,
 	-- AutoCast_Shine = Default.AutoCast_Shine,
 	AutoCast_Mask = {
 		Texture = [[Interface\AddOns\Masque\Textures\Square\AutoCast-Mask]],
@@ -225,8 +222,15 @@ Masque:AddSkin("Onyx", {
 		Atlas = "UI-HUD-ActionBar-PetAutoCast-Corners",
 		Width = 31,
 		Height = 31,
+		Classic = {
+			Atlas = "UI-HUD-ActionBar-PetAutoCast-Corners",
+			Width = 54,
+			Height = 54,
+			OffsetX = -1,
+			OffsetY = 1,
+		},
 	},
-	-- [ Cooldowns ]
+	-- [ Cooldown ]
 	Cooldown = {
 		Texture = [[Interface\AddOns\Masque\Textures\Square\Mask]],
 		EdgeTexture = [[Interface\AddOns\Masque\Textures\Modern\Edge]],
@@ -240,7 +244,7 @@ Masque:AddSkin("Onyx", {
 		Width = 26,
 		Height = 26,
 	},
-	-- [ SpellAlerts ]
+	-- [ SpellAlert ]
 	SpellAlert = {
 		Width = 34,
 		Height = 34,
